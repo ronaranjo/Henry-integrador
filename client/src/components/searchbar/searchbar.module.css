@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input{
+    border: none;
+    border-bottom: 3px solid var(--color_Celeste_1);
+    width: 200px;
+    height: 35px;
+}
+
+.button{
+    color: white;
+    font-size: 23px;
+    background-color: var(--color_Celeste_1);
+    border: none;
+    width: 100px;
+    height: 35px;
+}
