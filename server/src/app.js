@@ -4,6 +4,7 @@ const express = require("express")
 const server = express()
 
 
+
 server.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Credentials', 'true');
@@ -17,7 +18,7 @@ server.use((req, res, next) => {
     );
     next();
  });
-
+ 
 server.use(express.json())
 server.use("/rickandmorty", routes)
 
